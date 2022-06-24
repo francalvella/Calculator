@@ -1,0 +1,53 @@
+.container{
+    width: 400px;
+    height: auto;
+    background-color: #303030;
+    margin: auto;
+    outline: solid black;
+    padding: 5px;
+}
+
+.top-container{
+    margin: 5px;
+    height: 75px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: end;
+    align-items:flex-end;
+    outline: black solid;
+}
+
+.result {
+    font-size: 3em;
+    padding: 5px;
+    text-align: end;
+}
+
+.middle-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 75%;
+    margin: 5px;
+}
+
+.number, .symbols{
+    background-color: black;
+    height: 85px;
+    width: auto;
+    margin: 3px;
+    color: #f3f3f3;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.symbols{
+    background-color:rgb(136, 9, 9);
+}
+
+#clear{
+    background-color: rgb(219, 83, 83);
+}
